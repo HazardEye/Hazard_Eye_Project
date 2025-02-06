@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HazardEye</string>
+    <string name="o">Home</string>
+    <string name="report_selected">Report_Selected</string>
+    <string name="news_selected">News_Selected</string>
+    <string name="help_selected">Help_Selected</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="string_google">Sign in with Google</string>
+    <string name="viewpager_content_description">ViewPager</string>
+    <string name="user_name_description">User name</string>
+    <string name="get_direction_description">Get directions</string>
+</resources>

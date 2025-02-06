@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="Image slider for about us content" />
+
+    <!-- Dots Layout -->
+    <LinearLayout
+        android:id="@+id/dotsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <!-- Five Dots representing pages -->
+        <View
+            android:id="@+id/dot1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_margin="5dp"
+            android:alpha="0.2"
+            android:background="@drawable/ic_dot_dark" />
+
+        <View
+            android:id="@+id/dot2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_margin="5dp"
+            android:alpha="0.2"
+            android:background="@drawable/ic_dot_dark" />
+
+        <View
+            android:id="@+id/dot3"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_margin="5dp"
+            android:alpha="0.2"
+            android:background="@drawable/ic_dot_dark" />
+
+        <View
+            android:id="@+id/dot4"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_margin="5dp"
+            android:alpha="0.2"
+            android:background="@drawable/ic_dot_dark" />
+
+    </LinearLayout>
+
+    <!-- Your Toolbar and ImageView remain unchanged -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0097b2"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:logo="@drawable/group3"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="About Us"
+        app:titleMarginStart="30dp"
+        tools:layout_editor_absoluteX="-107dp" />
+
+    <ImageView
+        android:layout_width="406dp"
+        android:layout_height="411dp"
+        android:layout_centerInParent="true"
+        android:alpha="0.05"
+        android:backgroundTint="#2FFFFFFF"
+        android:scaleType="centerCrop"
+        android:src="@drawable/group1" />
+
+</RelativeLayout>

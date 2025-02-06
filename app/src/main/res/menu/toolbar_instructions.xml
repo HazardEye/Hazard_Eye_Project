@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Instruction"
+        android:id="@+id/instruction"
+        android:icon="@drawable/baseline_question_mark_24"
+        app:showAsAction="ifRoom"/>
+
+</menu>

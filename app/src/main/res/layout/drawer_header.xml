@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="#0097b2">
+
+    <!-- Icon on the left side -->
+
+    <!-- "Green Energy" text -->
+
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0.2dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="9dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/menuHeaderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/iconImageView"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <!-- "Application" text below "Green Energy" -->
+    <TextView
+        android:id="@+id/applicationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuHeaderTextView"
+        android:layout_toEndOf="@id/iconImageView"
+        android:text="Application"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+
+</RelativeLayout>

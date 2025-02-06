@@ -1,0 +1,30 @@
+<!-- menu_item_layout.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- Icon on the left side with fixed dimensions -->
+    <ImageView
+        android:id="@+id/menuItemIcon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/alert1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Menu item text -->
+    <TextView
+        android:id="@+id/menuItemText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/menuItemIcon"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
